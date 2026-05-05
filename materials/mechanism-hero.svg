@@ -1,0 +1,287 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="40" x2="1040" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDFEFF"/>
+      <stop offset="1" stop-color="#EEF5FC"/>
+    </linearGradient>
+    <linearGradient id="liposomeBody" x1="102" y1="210" x2="284" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#85DA5E"/>
+      <stop offset="1" stop-color="#4CA83E"/>
+    </linearGradient>
+    <radialGradient id="liposomeCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(192 300) rotate(90) scale(98)">
+      <stop stop-color="#EFF9D9"/>
+      <stop offset="1" stop-color="#8FD768"/>
+    </radialGradient>
+    <radialGradient id="immuneBody" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(566 411) rotate(90) scale(146 178)">
+      <stop stop-color="#FFEDE7"/>
+      <stop offset="1" stop-color="#E9B9A8"/>
+    </radialGradient>
+    <radialGradient id="immuneNucleus" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(572 426) rotate(90) scale(60 52)">
+      <stop stop-color="#C8B4FF"/>
+      <stop offset="1" stop-color="#8A63D9"/>
+    </radialGradient>
+    <linearGradient id="barrier" x1="742" y1="154" x2="930" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9EDF3"/>
+      <stop offset="0.5" stop-color="#C5CDD9"/>
+      <stop offset="1" stop-color="#EEF2F7"/>
+    </linearGradient>
+    <linearGradient id="arrowFill" x1="0" y1="0" x2="96" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#224F95"/>
+      <stop offset="1" stop-color="#3F8DE0"/>
+    </linearGradient>
+    <filter id="softShadow" x="42" y="136" width="318" height="330" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#7D9FC9" flood-opacity="0.26"/>
+    </filter>
+    <filter id="panelShadow" x="0" y="0" width="1200" height="820" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="35" flood-color="#7C9CC2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#panelShadow)">
+    <rect x="20" y="20" width="1160" height="780" rx="38" fill="url(#bg)"/>
+  </g>
+
+  <g opacity="0.55">
+    <circle cx="161" cy="127" r="88" fill="#F2F7FD"/>
+    <circle cx="1031" cy="715" r="106" fill="#F0F6FD"/>
+  </g>
+
+  <g>
+    <text x="92" y="112" fill="#1A3F73" font-family="Sora, Arial, sans-serif" font-size="30" font-weight="700">Drug-Loaded Liposome</text>
+    <text x="447" y="112" fill="#1A3F73" font-family="Sora, Arial, sans-serif" font-size="30" font-weight="700">Immune Cell Carrier</text>
+    <text x="742" y="112" fill="#1A3F73" font-family="Sora, Arial, sans-serif" font-size="30" font-weight="700">Trans-Barrier Transport</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="192" cy="300" r="92" fill="url(#liposomeBody)"/>
+    <circle cx="192" cy="300" r="72" fill="url(#liposomeCore)"/>
+    <g fill="#C53E2D">
+      <circle cx="151" cy="255" r="16"/>
+      <circle cx="189" cy="248" r="18"/>
+      <circle cx="231" cy="259" r="15"/>
+      <circle cx="150" cy="302" r="15"/>
+      <circle cx="192" cy="302" r="18"/>
+      <circle cx="233" cy="301" r="15"/>
+      <circle cx="168" cy="344" r="16"/>
+      <circle cx="213" cy="347" r="16"/>
+    </g>
+    <g fill="#6EC34C" stroke="#4A9F34" stroke-width="4">
+      <circle cx="111" cy="239" r="14"/>
+      <circle cx="91" cy="291" r="13"/>
+      <circle cx="114" cy="355" r="14"/>
+      <circle cx="164" cy="387" r="14"/>
+      <circle cx="222" cy="390" r="13"/>
+      <circle cx="272" cy="354" r="14"/>
+      <circle cx="293" cy="294" r="13"/>
+      <circle cx="270" cy="239" r="14"/>
+      <circle cx="220" cy="209" r="13"/>
+      <circle cx="164" cy="209" r="13"/>
+      <circle cx="101" cy="264" r="7"/>
+      <circle cx="88" cy="323" r="7"/>
+      <circle cx="123" cy="375" r="7"/>
+      <circle cx="189" cy="403" r="7"/>
+      <circle cx="253" cy="382" r="7"/>
+      <circle cx="290" cy="332" r="7"/>
+      <circle cx="293" cy="267" r="7"/>
+      <circle cx="257" cy="221" r="7"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="575" cy="405" rx="132" ry="107" fill="url(#immuneBody)"/>
+    <ellipse cx="573" cy="419" rx="43" ry="50" fill="url(#immuneNucleus)"/>
+    <g stroke="#C28774" stroke-linecap="round" opacity="0.34">
+      <path d="M503 364C510 360 518 360 523 365"/>
+      <path d="M618 330C624 325 632 324 638 329"/>
+      <path d="M672 401C678 398 686 398 692 402"/>
+      <path d="M497 446C504 441 511 441 518 446"/>
+      <path d="M611 477C617 473 624 472 631 476"/>
+      <path d="M549 328C554 324 560 323 565 327"/>
+      <path d="M452 397C459 393 466 394 471 399"/>
+    </g>
+    <g transform="translate(0 -6)">
+      <g transform="translate(483 314)">
+        <circle r="29" fill="url(#liposomeBody)"/>
+        <circle r="22" fill="url(#liposomeCore)"/>
+        <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+          <circle cx="-24" cy="-16" r="4.5"/>
+          <circle cx="0" cy="-29" r="4.5"/>
+          <circle cx="24" cy="-16" r="4.5"/>
+          <circle cx="28" cy="8" r="4.5"/>
+          <circle cx="11" cy="26" r="4.5"/>
+          <circle cx="-13" cy="26" r="4.5"/>
+          <circle cx="-28" cy="7" r="4.5"/>
+        </g>
+      </g>
+      <g transform="translate(582 262)">
+        <circle r="34" fill="url(#liposomeBody)"/>
+        <circle r="26" fill="url(#liposomeCore)"/>
+        <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+          <circle cx="-28" cy="-18" r="5"/>
+          <circle cx="0" cy="-33" r="5"/>
+          <circle cx="28" cy="-18" r="5"/>
+          <circle cx="33" cy="8" r="5"/>
+          <circle cx="14" cy="29" r="5"/>
+          <circle cx="-15" cy="29" r="5"/>
+          <circle cx="-33" cy="7" r="5"/>
+        </g>
+      </g>
+      <g transform="translate(665 311)">
+        <circle r="33" fill="url(#liposomeBody)"/>
+        <circle r="25" fill="url(#liposomeCore)"/>
+        <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+          <circle cx="-27" cy="-18" r="5"/>
+          <circle cx="0" cy="-32" r="5"/>
+          <circle cx="28" cy="-18" r="5"/>
+          <circle cx="32" cy="7" r="5"/>
+          <circle cx="13" cy="28" r="5"/>
+          <circle cx="-15" cy="28" r="5"/>
+          <circle cx="-31" cy="8" r="5"/>
+        </g>
+      </g>
+      <g transform="translate(661 492)">
+        <circle r="28" fill="url(#liposomeBody)"/>
+        <circle r="21" fill="url(#liposomeCore)"/>
+        <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+          <circle cx="-24" cy="-16" r="4.5"/>
+          <circle cx="0" cy="-28" r="4.5"/>
+          <circle cx="24" cy="-16" r="4.5"/>
+          <circle cx="28" cy="7" r="4.5"/>
+          <circle cx="11" cy="25" r="4.5"/>
+          <circle cx="-13" cy="25" r="4.5"/>
+          <circle cx="-28" cy="7" r="4.5"/>
+        </g>
+      </g>
+      <g transform="translate(516 514)">
+        <circle r="31" fill="url(#liposomeBody)"/>
+        <circle r="23" fill="url(#liposomeCore)"/>
+        <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+          <circle cx="-26" cy="-17" r="4.5"/>
+          <circle cx="0" cy="-30" r="4.5"/>
+          <circle cx="26" cy="-17" r="4.5"/>
+          <circle cx="30" cy="8" r="4.5"/>
+          <circle cx="12" cy="26" r="4.5"/>
+          <circle cx="-14" cy="26" r="4.5"/>
+          <circle cx="-30" cy="8" r="4.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g>
+    <rect x="744" y="164" width="42" height="343" rx="21" fill="url(#barrier)" stroke="#B7C0CD" stroke-width="2"/>
+    <rect x="786" y="164" width="42" height="343" rx="21" fill="url(#barrier)" stroke="#B7C0CD" stroke-width="2"/>
+    <rect x="828" y="164" width="42" height="343" rx="21" fill="url(#barrier)" stroke="#B7C0CD" stroke-width="2"/>
+    <rect x="870" y="164" width="42" height="343" rx="21" fill="url(#barrier)" stroke="#B7C0CD" stroke-width="2"/>
+    <g opacity="0.85">
+      <rect x="760" y="210" width="12" height="66" rx="6" fill="#55626F"/>
+      <rect x="760" y="332" width="12" height="66" rx="6" fill="#55626F"/>
+      <rect x="802" y="194" width="12" height="96" rx="6" fill="#C6CED8"/>
+      <rect x="802" y="381" width="12" height="96" rx="6" fill="#C6CED8"/>
+      <rect x="844" y="208" width="12" height="68" rx="6" fill="#C6CED8"/>
+      <rect x="844" y="332" width="12" height="68" rx="6" fill="#C6CED8"/>
+      <rect x="886" y="202" width="12" height="84" rx="6" fill="#55626F"/>
+      <rect x="886" y="374" width="12" height="84" rx="6" fill="#55626F"/>
+    </g>
+    <ellipse cx="823" cy="409" rx="86" ry="112" fill="#F5CABC" opacity="0.78"/>
+    <ellipse cx="820" cy="421" rx="34" ry="42" fill="url(#immuneNucleus)" opacity="0.88"/>
+    <g transform="translate(776 303)">
+      <circle r="27" fill="url(#liposomeBody)"/>
+      <circle r="20" fill="url(#liposomeCore)"/>
+      <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.2">
+        <circle cx="-23" cy="-15" r="4.5"/>
+        <circle cx="0" cy="-27" r="4.5"/>
+        <circle cx="23" cy="-15" r="4.5"/>
+        <circle cx="27" cy="7" r="4.5"/>
+        <circle cx="11" cy="23" r="4.5"/>
+        <circle cx="-12" cy="23" r="4.5"/>
+        <circle cx="-27" cy="7" r="4.5"/>
+      </g>
+    </g>
+    <g transform="translate(763 378)">
+      <circle r="24" fill="url(#liposomeBody)"/>
+      <circle r="18" fill="url(#liposomeCore)"/>
+      <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.2">
+        <circle cx="-21" cy="-14" r="4"/>
+        <circle cx="0" cy="-24" r="4"/>
+        <circle cx="21" cy="-14" r="4"/>
+        <circle cx="24" cy="6" r="4"/>
+        <circle cx="10" cy="21" r="4"/>
+        <circle cx="-11" cy="21" r="4"/>
+        <circle cx="-24" cy="6" r="4"/>
+      </g>
+    </g>
+    <g transform="translate(762 454)">
+      <circle r="24" fill="url(#liposomeBody)"/>
+      <circle r="18" fill="url(#liposomeCore)"/>
+      <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.2">
+        <circle cx="-21" cy="-14" r="4"/>
+        <circle cx="0" cy="-24" r="4"/>
+        <circle cx="21" cy="-14" r="4"/>
+        <circle cx="24" cy="6" r="4"/>
+        <circle cx="10" cy="21" r="4"/>
+        <circle cx="-11" cy="21" r="4"/>
+        <circle cx="-24" cy="6" r="4"/>
+      </g>
+    </g>
+  </g>
+
+  <g>
+    <g transform="translate(1012 395)">
+      <circle r="36" fill="url(#liposomeBody)"/>
+      <circle r="27" fill="url(#liposomeCore)"/>
+      <g fill="#6EC34C" stroke="#4A9F34" stroke-width="2.5">
+        <circle cx="-31" cy="-20" r="5"/>
+        <circle cx="0" cy="-35" r="5"/>
+        <circle cx="31" cy="-20" r="5"/>
+        <circle cx="36" cy="8" r="5"/>
+        <circle cx="15" cy="31" r="5"/>
+        <circle cx="-16" cy="31" r="5"/>
+        <circle cx="-36" cy="8" r="5"/>
+      </g>
+      <g fill="#C53E2D">
+        <circle cx="-9" cy="-9" r="7"/>
+        <circle cx="5" cy="-7" r="7"/>
+        <circle cx="-1" cy="7" r="8"/>
+        <circle cx="12" cy="10" r="6"/>
+      </g>
+    </g>
+    <g fill="#C53E2D">
+      <circle cx="1070" cy="344" r="11">
+        <animate attributeName="cy" values="344;332;344" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1110" cy="356" r="11">
+        <animate attributeName="cy" values="356;342;356" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1093" cy="401" r="9">
+        <animate attributeName="cy" values="401;387;401" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1065" cy="435" r="9">
+        <animate attributeName="cy" values="435;421;435" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <ellipse cx="1150" cy="410" rx="78" ry="100" fill="#F6D4C8" opacity="0.9"/>
+    <ellipse cx="1146" cy="423" rx="32" ry="40" fill="url(#immuneNucleus)" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.95">
+    <g transform="translate(338 306)">
+      <path d="M0 0H78" stroke="url(#arrowFill)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M58 -18L96 0L58 18" fill="url(#arrowFill)"/>
+    </g>
+    <g transform="translate(679 306)">
+      <path d="M0 0H78" stroke="url(#arrowFill)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M58 -18L96 0L58 18" fill="url(#arrowFill)"/>
+    </g>
+    <g transform="translate(936 306)">
+      <path d="M0 0H72" stroke="url(#arrowFill)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M54 -18L90 0L54 18" fill="url(#arrowFill)"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="70" y="623" width="1060" height="116" rx="28" fill="white" fill-opacity="0.78" stroke="#D8E4F0"/>
+    <text x="106" y="669" fill="#1A3F73" font-family="Sora, Arial, sans-serif" font-size="22" font-weight="700">Mechanism Overview</text>
+    <text x="106" y="707" fill="#51657D" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22">Drug-loaded liposomes engage immune cells, traverse biological barriers, and release therapeutics at the target site.</text>
+  </g>
+</svg>
